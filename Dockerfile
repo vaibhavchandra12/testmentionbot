@@ -1,6 +1,6 @@
 FROM debian:latest
 FROM python:3.9.6-slim-buster
-RUN apt update && apt upgrade -y && 
+RUN apt update && apt upgrade
 ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U pip
 RUN pip3 install -U -r requirements.txt

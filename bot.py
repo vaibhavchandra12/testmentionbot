@@ -33,7 +33,7 @@ async def cancel(event):
 #start
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("^_^ Hey", Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
+  await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [Button.url('🙃 Add To Group', 'https://t.me/TagHelpBot?startgroup=true'),
                       Button.url('Support', 'https://t.me/AddySupport'),

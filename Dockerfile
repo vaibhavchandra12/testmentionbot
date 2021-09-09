@@ -23,6 +23,8 @@ ENV PATH="/home/userbot/bin:$PATH"
 
 # Install requirements
 RUN ls
+RUN cd root
+RUN ls
 
 # Starting Worker
 CMD ["python3","bot.py"]

@@ -20,8 +20,8 @@ RUN pip3 install --upgrade pip setuptools
 
 
 # Copy Python Requirements to /root/nana
-RUN git clone https://github.com/vaibhavchandra12/testmentionbot.git /root/app
-WORKDIR /root/app
+RUN git clone https://github.com/vaibhavchandra12/testmentionbot.git /root
+WORKDIR /root
 
 ENV PATH="/home/userbot/bin:$PATH"
 

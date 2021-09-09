@@ -22,7 +22,7 @@ RUN pip3 install --upgrade pip setuptools
 ENV PATH="/home/userbot/bin:$PATH"
 
 # Install requirements
-RUN pip3 install -U -r requirements.txt
+RUN ls
 
 # Starting Worker
 CMD ["python3","bot.py"]

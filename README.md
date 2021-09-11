@@ -4,12 +4,12 @@ _**This bot can mention up to 10,000 members in groups and up to 200 members in 
 ### 🏷 Information
 - Language: Python.
 - Telegram Library: Telethon.
-- javascript version coming soon
+- javascript version (Nhi Hai BC)
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/vaibhavchandra12/testmentionbot)
 
 ### 🎯 Credits and Other
-- [I](https://github.com/bodrumlubebek) for this Project ;)
+- [I](https://github.com/ImAddyXD) for this Project ;)
 
 **Don't forget to follow me on Github ✌️**

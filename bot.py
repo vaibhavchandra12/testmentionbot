@@ -161,7 +161,6 @@ async def telegraph(client, message):
     finally:
         os.remove(download_location)
 
-
-print("~~~~Started~~~~~")
-print("¯\_(ツ)_/¯ Need Help Join @AddySupport")
+LOGS.info("~~~~Started~~~~~")
+LOGS.info("¯\_(ツ)_/¯ Need Help Join @AddySupport")
 client.run_until_disconnected()

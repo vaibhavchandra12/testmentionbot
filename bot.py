@@ -60,7 +60,7 @@ async def help(event):
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@client.on(events.NewMessage(pattern="(?i).*/tag ?(.*)"))
+@client.on(events.NewMessage(pattern=" ?(.*) @all ?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
